@@ -1,0 +1,13 @@
+[package]
+name = "cacheserver"
+version = "0.1.0"
+authors = ["Nishikant Ajay Patil <crusnik02.trinityblood@gmail.com>"]
+edition = "2018"
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
